@@ -1,0 +1,12 @@
+/* bugSolution.css */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Solution: Use height instead of min-height */
+}
+/* Consider adding other styles to the container */
+.container div{
+  background-color: lightblue;
+  padding: 20px;
+}
